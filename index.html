@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>LOGIN</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <span>LOGIN</span>
+        </div>
+        <form id="form-login">
+            <div class="content">
+                <input id="user" type="text" placeholder="User">
+            </div>
+            <div>
+                <input type="password" id="senha" placeholder="Password" >
+                <i class="bi bi-eye-fill" id="btn-senha" onclick="MostrarSenha()"></i>
+            </div>
+            <div class="button">
+            <button id="btnLogin" type="submit">Entrar</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

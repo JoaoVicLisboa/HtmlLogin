@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: url(../htmlLogin/images/fundo.jpg);
+    font-family: 'Poppins', sans-serif;
+    
+}
+.container{
+
+    text-align: center;
+    justify-content: center;
+    color: white;
+    display: flex; place-items: center;
+    flex-direction: column;
+    background-color: rgba(10, 23, 55, 0.5);
+    border: 5px;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+    gap: 100px;
+
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+}
+#btnLogin{
+    flex-direction: row;
+    background-color: #3939e2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    margin: 0 5px;
+    cursor: pointer;
+    height:40px;
+    width: 130px;
+
+}
+content{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#user, #senha{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+    background-color:  rgba(10, 23, 55, 0);    
+    margin-bottom: 50px;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    outline: 0;
+    box-shadow: 0;
+    font-size: 18px;
+
+}   
+#user::placeholder, #senha::placeholder{
+
+    color: white ;
+}
+input{
+    color: white;
+    border-color: white ;
+}
